@@ -19,6 +19,6 @@ from django.urls import path,include
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path('', include('blog.urls')),# / redirect routes without a forward slash
+    path('', include('blog.urls')),# / redirect to app on default IP
     
 ]
